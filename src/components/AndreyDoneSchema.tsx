@@ -38,6 +38,6 @@ export const  generateDependencies =  (inputData) => {
       });
     }
   });
-
+console.log("main")
   return dependencies;
 }

@@ -207,6 +207,8 @@ const fields = [
       fieldType?: string;
   }
   const generateSchemaField = (field: IField[]) => {
+console.log("main")
+
     const object = field.reduce(
         (obj, {
           key,
