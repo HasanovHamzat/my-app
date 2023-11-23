@@ -4,6 +4,7 @@ import './App.css';
 import { First } from './components/First';
 
 function App() {
+  console.log("Это майн ветка")
   return (
     <div className="App">
       <First />
