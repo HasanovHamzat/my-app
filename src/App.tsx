@@ -5,6 +5,8 @@ import { First } from './components/First';
 
 function App() {
   console.log("Это майн ветка")
+  console.log("Это dev ветка")
+
   return (
     <div className="App">
       <First />
