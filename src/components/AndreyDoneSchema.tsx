@@ -1,6 +1,6 @@
 export const  generateDependencies =  (inputData) => {
   const dependencies = {};
-
+console.log(111111)
   inputData.forEach(item => {
     if (item.choises) {
       if (!dependencies[item.key]) {
